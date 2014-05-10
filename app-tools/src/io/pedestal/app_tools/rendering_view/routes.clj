@@ -13,7 +13,7 @@
   (:use [io.pedestal.app.templates :only [load-html construct-html render]])
   (:require [clojure.java.io :as io]
             [net.cgrand.enlive-html :as html]
-            [io.pedestal.service.interceptor :as interceptor :refer [definterceptorfn]]
+            [io.pedestal.interceptor :as interceptor :refer [definterceptorfn]]
             [io.pedestal.app-tools.host-page :as host-page]
             [ring.util.response :as ring-response]
             [clojure.edn :as edn]))

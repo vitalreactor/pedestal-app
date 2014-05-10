@@ -20,7 +20,7 @@
             [io.pedestal.app.util.scheduler :as scheduler]
             [io.pedestal.app.protocols :as p]
             [io.pedestal.app.util.log :as log]
-            [io.pedestal.service.interceptor :as interceptor :refer [definterceptorfn]])
+            [io.pedestal.interceptor :as interceptor :refer [definterceptorfn]])
   (:import [java.io File]))
 
 (def ^:dynamic *tools-public* "out/tools/public")

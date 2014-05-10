@@ -12,8 +12,8 @@
 (defproject io.pedestal/pedestal.app-tools "0.3.0-SNAPSHOT"
   :description "Pedestal tools for application development"
   :min-lein-version "2.0.0"
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/clojurescript "0.0-1835"]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [org.clojure/clojurescript "0.0-2202"]
                  [org.clojure/tools.namespace "0.2.1"]
                  [org.clojure/java.classpath "0.2.0"]
                  [ch.qos.logback/logback-classic "1.0.13" :exclusions [org.slf4j/slf4j-api]]

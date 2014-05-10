@@ -11,7 +11,7 @@
 
 (ns io.pedestal.app-tools.middleware
   (:require [io.pedestal.app.util.log :as log]
-            [io.pedestal.service.interceptor :refer [defon-response]])
+            [io.pedestal.interceptor :refer [defon-response]])
   (:import java.io.File))
 
 (defon-response js-encoding

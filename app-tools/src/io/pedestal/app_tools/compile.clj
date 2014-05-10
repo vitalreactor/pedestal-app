@@ -10,7 +10,8 @@
 ; You must not remove this notice, or any other, from this software.
 
 (ns io.pedestal.app-tools.compile
-  (:use [cljs.closure :only [build -compile dependency-order Compilable]])
+  (:use [cljs.closure :only [build -compile Compilable]])
+  (:use [cljs.js-deps :only [dependency-order]])
   (:require [clojure.java.io :as io]
             [clojure.java.classpath :as classpath]
             [clojure.tools.namespace.find :as ns-find]

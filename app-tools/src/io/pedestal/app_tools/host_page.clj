@@ -14,7 +14,7 @@
   application."
   (:use [io.pedestal.app.templates :only [load-html construct-html render html-parse]])
   (:require [net.cgrand.enlive-html :as html]
-            [io.pedestal.service.interceptor :as interceptor :refer [definterceptorfn]]
+            [io.pedestal.interceptor :as interceptor :refer [definterceptorfn]]
             [cljs.compiler :as compiler])
   (:import java.io.File))
 

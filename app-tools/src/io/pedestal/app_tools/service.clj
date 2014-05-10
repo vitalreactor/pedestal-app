@@ -10,16 +10,16 @@
 ; You must not remove this notice, or any other, from this software.
 
 (ns io.pedestal.app-tools.service
-  (:require [io.pedestal.service.http :as bootstrap]
-            [io.pedestal.service.log :as log]
+  (:require [io.pedestal.http :as bootstrap]
+            [io.pedestal.log :as log]
             ;; the impl dependencies will go away
             ;; these next two will collapse to one
-            [io.pedestal.service.interceptor :as interceptor :refer [definterceptorfn defon-response]]
-            [io.pedestal.service.http :as bootstrap]
-            [io.pedestal.service.http.impl.servlet-interceptor :as servlet-interceptor]
-            [io.pedestal.service.http.route.definition :refer [expand-routes]]
-            [io.pedestal.service.http.ring-middlewares :as middlewares]
-            [io.pedestal.service.http.route :as route]
+            [io.pedestal.interceptor :as interceptor :refer [definterceptorfn defon-response]]
+            [io.pedestal.http :as bootstrap]
+            [io.pedestal.http.impl.servlet-interceptor :as servlet-interceptor]
+            [io.pedestal.http.route.definition :refer [expand-routes]]
+            [io.pedestal.http.ring-middlewares :as middlewares]
+            [io.pedestal.http.route :as route]
             [io.pedestal.app-tools.rendering-view.routes :as render-routes]
             [io.pedestal.app-tools.build :as build]
             [io.pedestal.app-tools.middleware :as app-tools-middleware]

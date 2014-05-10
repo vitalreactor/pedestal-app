@@ -12,8 +12,8 @@
 (defproject io.pedestal/pedestal.app "0.3.0-SNAPSHOT"
   :description "Pedestal applications"
   :min-lein-version "2.0.0"
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/clojurescript "0.0-1835"]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [org.clojure/clojurescript "0.0-2202"]
                  [org.clojure/core.async "0.1.242.0-44b1e3-alpha"]
                  [ch.qos.logback/logback-classic "1.0.13"]
                  [enlive "1.0.0" :exclusions [org.clojure/clojure]]
